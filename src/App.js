@@ -41,6 +41,7 @@ class App extends Component {
         matches.push(match)
       })
   }
+  
     
     const teams = data.teams
     const stadiums = data.stadiums
@@ -84,7 +85,6 @@ class App extends Component {
       match.group.name.toLowerCase().includes(filterStr)
     )
     .map(match => {
-        console.log(match.home_team.name.toLowerCase().includes(filterStr))
       return <Match key="match.id" {...match} />
         
       
