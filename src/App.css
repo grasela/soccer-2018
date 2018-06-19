@@ -5,21 +5,13 @@
   padding: 0;
   align-items: center;
   justify-content: center;
-
 }
 
-
 .App {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-
-
-
-
-  
 }
 
 .games {
@@ -30,37 +22,34 @@
   text-align: center;
   align-items: center;
   justify-content: center;
- 
 }
 
 div.game {
   border: 1px solid grey;
   border-radius: 10%;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   margin: 20px;
-  -webkit-transition: -moz-transform .3s ease-out; 
-   -moz-transition: -webkit-transform .3s ease-out; 
-   -o-transition: -o-transform .3s ease-out; 
-    transition: transform .3s ease-out; 
+  -webkit-transition: -moz-transform 0.3s ease-out;
+  -moz-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
-
 
 .game:hover {
   box-shadow: black 2px 2px 2px;
   background-position: bottom center;
-   -moz-transform: scale(1.1);
-   -webkit-transform: scale(1.1);
-   -o-transform: scale(1.1);
-   transform: scale(1.1);
-   background-color: white;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: white;
 }
 
 .score {
   display: flex;
   flex-direction: row;
   margin: 20px;
-
 }
 
 .score div {
@@ -75,20 +64,17 @@ img {
 }
 
 .vs {
-  
   text-align: center;
 }
 .input {
   width: 100%;
   position: fixed;
-
 }
 
 .input h1 {
   background: white;
 }
 input {
-  
   width: 50%;
   height: 50px;
   text-align: center;
